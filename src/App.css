@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Counter .main {
+  display: flex;
+  justify-content: center;
+}
+
+.Counter .main button {
+  margin: 0 10px;
+}

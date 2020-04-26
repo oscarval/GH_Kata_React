@@ -10,7 +10,7 @@ function App() {
         <Person name='Alexis' surname='Valdez' age='30' />
         <Person name='Juan' surname='Pérez' age={27} />
         <Person name='David' surname='Ochando' age={97} />
-        <Counter />
+        <Counter initialValue={5} step={2}/>
       </header>
     </div>
   );
