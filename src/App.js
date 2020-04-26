@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { Person } from "./components/Person";
 import Counter from "./components/Counter";
+import CounterFunctional from "./components/CounterFunctional";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Person name='Juan' surname='Pérez' age={27} />
         <Person name='David' surname='Ochando' age={97} />
         <Counter initialValue={5} step={2}/>
+        <CounterFunctional initialValue={5} step={2}/>
       </header>
     </div>
   );
