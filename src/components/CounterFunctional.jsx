@@ -1,7 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const CounterFuntional = (props) => {
   const [counter, setCounter] = useState(props.initialValue);
+
+  useEffect(() => {
+    console.log("The component did mount");
+    return () => {
+      console.log("The component will unmount");
+    };
+  }, []);
+
+  useEffect(() => {
+      console.log('The component did update');
+  });
 
   const increment = () => {
     setCounter(counter + props.step);
