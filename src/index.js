@@ -7,7 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <React.StrictMode>
     {/* change between aplication attr: form or basic */}
-    <App application='basic' />
+    <App application='form' />
   </React.StrictMode>,
   document.getElementById("root")
 );
