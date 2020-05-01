@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+
+This practices show the most features of React.
+You can change between applications in index.js in App component, change the attr application :
+basic or '' = This option show Counter, CounterFuntional, Loops and Render conditional components.
+form = This option show a simple Form component functional
+
 ## Available Scripts
 
 In the project directory, you can run:
