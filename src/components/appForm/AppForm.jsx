@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./AppForm.css";
+import "./AppForm.scss";
 
 const AppForm = () => {
   const handleChange = (event) => {

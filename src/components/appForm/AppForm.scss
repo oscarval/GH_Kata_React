@@ -1,0 +1,31 @@
+@import "../../colors.scss";
+
+.AppForm {
+  background-color: $primary;
+  padding: 5vh;
+  color: $text;
+
+  h2 {
+    color: $header;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    justify-content: space-around;
+
+    input {
+      all: unset;
+      padding: 10px;
+      background-color: $secondary;
+      border-radius: 5px;
+      color: $text;
+
+      &[type="submit"] {
+        background-color: $accept;
+        color: $text;
+      }
+    }
+  }
+}
